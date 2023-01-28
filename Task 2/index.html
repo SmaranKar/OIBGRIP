@@ -1,0 +1,149 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SSR - Tribute Page</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/20f0338007.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <main id="main">
+        <header>
+            <h1 id="title">
+                Sushant Singh Rajput
+            </h1>
+            <p>Indian Actor</p>
+        </header>
+        
+        <section id="fig-section">
+            <figure id="img-div">
+                <img id="image" src="data:image/jpeg;base64,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" alt="portrait of Sushant Singh Rajput">
+                <figcaption id="img-caption">
+                    Sushant Singh Rajput<br> 1986 &#9866; 2020
+                </figcaption>
+            </figure>
+            <figure class="quote-div">
+                <blockquote class="quote">
+                    " if you do something every day that excite you, you'll get all those things at the same time you'll be enjoying entire process "
+                </blockquote>
+                <figcaption id="quote-cap">&#9866; Sushant Singh Rajput</figcaption>
+            </figure>
+        </section>
+
+                                                        <!--begin of timeline-->
+        <section id="tribute-info">
+            <h2>Here's a time line of Sushant's life</h2>
+            <div id="time-line">
+                                                        <!--early life-->
+              <details class="details" close>
+                <summary class="sm-btn">
+                  <span class="cm early-life"><i class="fa-solid fa-graduation-cap"></i>Early life</span>
+                </summary>
+                <ul class="sm-content">
+                  <li>
+                    <span class="date">21 Jan 1986: </span>
+                    Sushant Singh Rajput was born in Patna in the state of Bihar to Krishna Kumar Singh and Usha Singh.
+                  </li>
+                  <li>
+                    <span class="date">2002: </span>
+                    His family moved to Delhi where Rajput completed his schooling for intermediate studies in Kulachi Hansraj Model School.
+                  </li>
+                  <li>
+                    <span class="date">2006: </span>
+                    he dropped out of his engineering course during his fourth year to begin a career in arts and performance.He moved to Mumbai, took up odd jobs and small roles alongside working in the theatre industry.
+                  </li>
+                  <li>
+                    <span class="date">2008: </span>
+                    He started working in television series <span class="film-name">Kis Desh Mein Hai Meraa Dil</span>.
+                  </li>
+                  <li>
+                    <span class="date">2009: </span>
+                    He started working in television series <span class="film-name">Pavitra Rishta</span>, later it become popular on ZEE TV.
+                  </li>
+                </ul>  
+                                                          <!--Films-->
+              </details>
+              <details class="details" close>
+                <summary class="sm-btn">
+                  <span class="cm flims"><i class="fa-solid fa-film"></i>Films</span>
+                </summary>
+                <ul class="sm-content">
+                  <li>
+                    <span class="date">2011: </span>
+                    He was spotted by Mukesh Chhabra, the casting director of <span class="film-name">Kai Po Che!</span>. It was released in 2013 and became a commercial and critical success.
+                  </li>
+                  <li>
+                    <span class="date">2012: </span>
+                    He was signed in by Raj Kumar Hirani for a role in the Aamir Khan starring satirical drama called <span class="film-name">PK</span>. The film <span class="film-name">PK</span> was later released in 2014 and became the highest grossing Indian film.
+                  </li>
+                  <li>
+                    <span class="date">2014: </span>
+                    He was announced as the actor who would play the role of Dhoni in the biopic which was titled <span class="film-name">M.S. Dhoni: The Untold Story</span>. Later it released in 2 October 2016 and become the 5th highest grossing Bollywood film of that year.
+                  </li>
+                  <li>
+                    <span class="date">2017: </span>
+                    He was signed in by the director Abhishek Kapoor and the producer Ekta Kapoor for their film <span class="film-name">Kedarrnath</span>.It was a love story set in the backdrop of the 2013 floods in Uttarakhand. 
+                    The film however soon became embroidered in controversy as the Bharatiya Janata Party alleged that it was promoting love Jihad by showing an interfaith couple.
+                  </li>
+                  <li>
+                    <span class="date">2018: </span>
+                    He was signed in by Nitesh Tiwari for his new film titled <span class="film-name">Chhichhore</span>. It was released on 6 September 2019 and became the third movie featuring to gross over <span class="rupee">&#8377;</span>100 crore.
+                  </li>
+                  <li>
+                    <span class="date">2020: </span>
+                    His last movie was <span class="film-name">Dil Bechara</span>. It was released in 24 July 2020 after his <span class="sad">&#128529;</span> death.
+                  </li>
+                </ul>
+                                                           <!--Awards-->
+              </details>
+              <details class="details" close>
+                <summary class="sm-btn">
+                  <span class="cm awards"><i class="fa-solid fa-award"></i>Awards</span>
+                </summary>
+                <ul class="sm-content">
+                  <li>
+                   <span class="date">2010: </span>
+                   He won Indian Television Academy Awards in gategory of Most Popular Actor(Male) for <span class="film-name">Pavitra Rishta</span>
+                  </li>
+                  <li>
+                    <span class="date">2011: </span>
+                    He won FICCI Frames Excellence Honours in gategory of Best TV Actor(Male) for <span class="film-name">Pavitra Rishta</span>
+                  </li>
+                  <li>
+                    <span class="date">2016: </span>
+                    He won Screen Awards in gategory of Best Actor(Critics) for <span class="film-name">M.S Dhoni: The Untold Story</span>
+                  </li>
+                  <li>
+                    <span class="date">2017: </span>
+                    He won Indian Film Festival of Melbourne in gategory of Best Actor for <span class="film-name">M.S Dhoni: The Untold Story</span>
+                  </li>
+                </ul>
+              </details>
+                                                          <!--death-->
+              <details class="details" close>
+                <summary class="sm-btn">
+                  <span class="cm death"><i class="fa-solid fa-book-skull"></i>Death</span>
+                </summary>
+                <ul class="sm-content">
+                  <li>
+                    <span class="date">2020: </span>
+                    On 14 June 2020, Sushant Singh Rajput, aged 34, was found dead, hanging from the ceiling fan in his home in Bandra, Mumbai. He had reportedly shown signs of clinical depression and was suffering from bipolar disorder. 
+                    The Mumbai Police commenced an investigation, stating that the death was being treated as a suicide.
+                  </li>
+                </ul>
+              </details>
+                                                       <!--end of timeline-->                                         
+
+                                                         <!--footer-->
+            </div>
+            <p class="footer">Find more about on his
+              <a href="https://en.wikipedia.org/wiki/Sushant_Singh_Rajput" id="tribute-link" class="link" target="_blank">Wikipedia<i class="fa-solid fa-square-arrow-up-right"></i></a>
+            </p>
+          </section>
+
+    </main>
+</body>
+</html>
